@@ -1,2 +1,3 @@
 # Data-Science-masters
-Data Science masters - SelfLearn
+Data Science masters (Self-Learn)
+
