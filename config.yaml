@@ -1,8 +1,9 @@
 path:
   filepath : "./data/players.csv"
+  logpath : "./logs/"
 
 fs:
-  model : 'logistic_regressor'
+  model : PCA #'xgb_regressor' #'xgb_classifier'
   features: ['position', 'team', 'expected_goals', 'expected_goal_involvements_per_90', 'transfers_out_event',
   # 'ict_index_rank_type', 'expected_goals_per_90', 'starts_per_90', 'goals_conceded', 'bps', 'clean_sheets_per_90',
   # 'clean_sheets', 'threat_rank', 'selected_by_percent', 'now_cost_rank_type', 'news_added', 'bonus', 'penalties_order',

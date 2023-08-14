@@ -5,3 +5,4 @@ __pycache__/
 /venv3_9/
 /data/
 /logs/*.log
+/logs/*.*
