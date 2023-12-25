@@ -1,6 +1,9 @@
 path:
   filepath : "./data/players.csv"
-  logpath : "./logs/"
+  # logpath : "./logs/"
+
+pipeline: []
+
 
 fs:
   model : PCA #'xgb_regressor' #'xgb_classifier'
