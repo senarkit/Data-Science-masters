@@ -1,8 +1,8 @@
 import logging
 import datetime
-import yaml
+import yaml #install PyYaml
 import pandas as pd
-from Features.selection import feature_selection
+from src.features.selection import feature_selection
 import os
 
 #### import config file
