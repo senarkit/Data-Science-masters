@@ -1,0 +1,11 @@
+path:
+  filepath : "./data/players.csv"
+  # logpath : "./logs/"
+
+pipeline: []
+
+
+fs:
+  model : PCA #'xgb_regressor' #'xgb_classifier'
+  features: ['position', 'team','news', 'chance_of_playing_this_round']
+  target : "now_cost"
