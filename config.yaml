@@ -7,15 +7,5 @@ pipeline: []
 
 fs:
   model : PCA #'xgb_regressor' #'xgb_classifier'
-  features: ['position', 'team', 'expected_goals', 'expected_goal_involvements_per_90', 'transfers_out_event',
-  # 'ict_index_rank_type', 'expected_goals_per_90', 'starts_per_90', 'goals_conceded', 'bps', 'clean_sheets_per_90',
-  # 'clean_sheets', 'threat_rank', 'selected_by_percent', 'now_cost_rank_type', 'news_added', 'bonus', 'penalties_order',
-  # 'now_cost_rank', 'selected_rank_type', 'ep_next', 'minutes', 'goals_conceded_per_90', 'event_points', 'value_season',
-  'news', 'chance_of_playing_this_round', 'creativity', 'creativity_rank_type', 'red_cards', 'saves_per_90', 'form_rank_type',
-  # 'yellow_cards', 'expected_assists', 'ep_this', 'value_form', 'expected_goals_conceded', 'transfers_out', 'goals_scored',
-  # 'expected_goals_conceded_per_90', 'starts', 'threat_rank_type', 'ict_index', 'expected_assists_per_90', 'points_per_game_rank',
-  # 'influence_rank', 'dreamteam_count', 'selected_rank', 'transfers_in_event', 'expected_goal_involvements', 'in_dreamteam',
-  # 'form_rank', 'corners_and_indirect_freekicks_order', 'direct_freekicks_order', 'assists', 'influence_rank_type',
-  # 'points_per_game_rank_type', 'points_per_game', 'chance_of_playing_next_round', 'creativity_rank', 'total_points',
-  'status', 'form', 'saves', 'transfers_in', 'ict_index_rank', 'threat', 'influence']
+  features: ['position', 'team','news', 'chance_of_playing_this_round']
   target : "now_cost"
