@@ -5,10 +5,12 @@ import yaml #install PyYaml
 import pandas as pd
 from src.features.selection import feature_selection
 import os
+from utils.utils import dotdict
 
 #### import config file
 with open("config.yaml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
+config = dotdict(config)
 
 #### LOGGING
 now = datetime.datetime.now().strftime("%d%m%Y_%HH%MM%SS")
