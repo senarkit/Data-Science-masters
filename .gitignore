@@ -1,5 +1,5 @@
-*.csv
-
+# *.csv
+*.pkl
 
 __pycache__/
 /venv/
