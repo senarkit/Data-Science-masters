@@ -1,5 +1,9 @@
-*.csv
-
+# *.csv
+*.pkl
+*.bin
+model.bin
+/.ipynb_checkpoints
+catboost_info/
 
 __pycache__/
 /venv/
